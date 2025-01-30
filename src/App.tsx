@@ -1,4 +1,5 @@
 import About from "./_sections/about"
+import Contact from "./_sections/contact"
 import Hero from "./_sections/hero"
 import Navbar from "./_sections/navbar"
 import Portfolio from "./_sections/portfolio"
@@ -12,6 +13,7 @@ function App() {
         <Hero />
         <About />
         <Portfolio />
+        <Contact />
       </main>
     </>
   )
