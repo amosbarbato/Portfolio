@@ -1,11 +1,16 @@
-import Hero from "./_components/hero"
-import Navbar from "./_components/navbar"
+import About from "./_sections/about"
+import Hero from "./_sections/hero"
+import Navbar from "./_sections/navbar"
 
 function App() {
   return (
     <>
       <Navbar />
-      <Hero />
+
+      <main className="flex flex-col justify-center">
+        <Hero />
+        <About />
+      </main>
     </>
   )
 }
