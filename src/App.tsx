@@ -1,7 +1,9 @@
+import Navbar from "./_components/navbar"
+
 function App() {
   return (
     <>
-      <h1>Deu certo</h1>
+      <Navbar />
     </>
   )
 }
