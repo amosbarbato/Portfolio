@@ -1,5 +1,5 @@
-import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar"
-import { Button } from "./ui/button"
+import { Avatar, AvatarFallback, AvatarImage } from "../_components/ui/avatar"
+import { Button } from "../_components/ui/button"
 
 const Hero = () => {
   return (
