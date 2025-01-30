@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  font-family: "Poppins", serif;
+}
 
 @media (prefers-color-scheme: light) {
   :root {
