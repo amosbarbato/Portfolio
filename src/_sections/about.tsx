@@ -17,9 +17,9 @@ const About = () => {
             melhorando o desempenho e as integrações de aplicativos, com experiência
             no desenvolvimento de sites E-commerce. Atuando principalmente com as
             práticas de UI/UX para criar interfaces intuitivas que maximizam a
-            experiência dos usuários com React.JS/Next.JS/ReactNative. Isso me
+            experiência dos usuários com React.JS/Next.JS. Isso me
             levou a estudar e construir experiência em testes automatizados e testes
-            nativos Jest, CI/CD, Azure, AWS, boas práticas de desenvolvimento, etc.
+            nativos Jest, CI/CD, boas práticas de desenvolvimento, etc.
           </p>
 
           <p>
