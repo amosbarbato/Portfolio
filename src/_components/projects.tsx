@@ -10,12 +10,6 @@ export const Projects = () => {
         url="https://weather-io-one.vercel.app/"
       />
       <ProjectItem
-        title="Planner"
-        thumbnail="https://github.com/user-attachments/assets/3e87fdd8-8a1b-4ff9-bbe3-6454e9b4c280"
-        className="order-6"
-        url="https://github.com/amosbarbato/nlw-planner"
-      />
-      <ProjectItem
         title="Jobs Calc Planning"
         thumbnail="https://github.com/user-attachments/assets/4bd3520d-f150-42ba-bfa0-f5a2a9f5ec87"
         className="order-5"
