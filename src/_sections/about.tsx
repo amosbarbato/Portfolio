@@ -2,12 +2,12 @@ import { TechIcons } from "../_components/tech-icons"
 
 const About = () => {
   return (
-    <div id="skill" className="flex flex-col justify-center py-20 px-[120px] bg-zinc-900">
+    <div id="skill" className="flex flex-col justify-center py-20 px-[120px] max-md:px-10 bg-zinc-900">
       <h2 className="text-center font-bold text-2xl mb-10">
         Sobre / Hard Skils
       </h2>
 
-      <div className="grid grid-cols-2 gap-x-12">
+      <div className="grid grid-cols-2 gap-x-12 max-md:grid-cols-1 max-md:gap-y-12">
         <div className="text-white/70 font-light text-justify text-sm space-y-3">
           <span className="font-semibold text-base">
             FullStack Developer, especializado em Java/Node.

@@ -22,7 +22,7 @@ const Hero = () => {
 
       <div className="mt-8">
         <div className="w-[650px] text-center space-y-8">
-          <h1 className="font-medium text-2xl">
+          <h1 className="font-medium text-2xl max-md:hidden">
             Hello World! Meu chamo Amós Barbato e sou <br />
             <span className="font-extrabold text-5xl bg-gradient-to-r from-red-400 to-violet-600 inline-block text-transparent bg-clip-text">
               Desenvolvedor FullStack

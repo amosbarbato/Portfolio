@@ -5,7 +5,7 @@ import { VscVscode } from "react-icons/vsc"
 
 export const TechIcons = () => {
   return (
-    <div className="grid grid-cols-5 grid-rows-3 gap-7">
+    <div className="grid grid-cols-5 grid-rows-3 gap-7 max-md:grid-cols-3 max-md:grid-rows-5">
       <Icons icon={<SiReact size={32} />} />
       <Icons icon={<SiJavascript size={32} />} />
       <Icons icon={<SiNodedotjs size={32} />} />

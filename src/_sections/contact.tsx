@@ -3,16 +3,16 @@ import { SiGithub, SiLinkedin } from "react-icons/si"
 
 const Contact = () => {
   return (
-    <div id="contact" className="flex flex-col justify-center py-20 px-[120px] bg-zinc-900">
+    <div id="contact" className="flex flex-col justify-center py-20 px-[120px] max-md:px-10 bg-zinc-900">
       <h2 className="text-center font-bold text-2xl mb-10">
         Contato
       </h2>
 
       <div className="text-white/70 font-light text-sm space-y-4">
-        <p className="text-sm font-light text-white/70">
+        <p className="text-sm font-light text-white/70 max-md:text-center">
           Entre em contato ou acompanhe as minhas redes sociais!
         </p>
-        <div className="flex gap-6 items-center text-white">
+        <div className="flex gap-6 items-center text-white max-md:justify-center">
           <SiLinkedin
             size={22}
             onClick={() => window.open("https://www.linkedin.com/in/amos-barbato/")}
