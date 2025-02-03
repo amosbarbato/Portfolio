@@ -7,7 +7,7 @@ const Portfolio = () => {
         Projetos
       </h2>
 
-      <div className="grid grid-cols-3 grid-rows-3 gap-10 max-md:grid-cols-1">
+      <div className="grid grid-cols-3 gap-10 max-md:grid-cols-1">
         <Projects />
       </div>
     </div>
