@@ -2,7 +2,7 @@ import { TechIcons } from "../_components/tech-icons"
 
 const About = () => {
   return (
-    <div className="flex flex-col justify-center py-20 px-[120px] bg-zinc-900">
+    <div id="skill" className="flex flex-col justify-center py-20 px-[120px] bg-zinc-900">
       <h2 className="text-center font-bold text-2xl mb-10">
         Sobre / Hard Skils
       </h2>

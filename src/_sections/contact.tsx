@@ -3,7 +3,7 @@ import { SiGithub, SiLinkedin } from "react-icons/si"
 
 const Contact = () => {
   return (
-    <div className="flex flex-col justify-center py-20 px-[120px] bg-zinc-900">
+    <div id="contact" className="flex flex-col justify-center py-20 px-[120px] bg-zinc-900">
       <h2 className="text-center font-bold text-2xl mb-10">
         Contato
       </h2>
