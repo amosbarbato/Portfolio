@@ -1,7 +1,16 @@
 import { Avatar, AvatarFallback, AvatarImage } from "../_components/ui/avatar"
 import { Button } from "../_components/ui/button"
 
+import curriculo from "../assets/curriculo.pdf"
+
 const Hero = () => {
+  const toScroll = (sectionId: string) => {
+    const section = document.getElementById(sectionId)
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" })
+    }
+  }
+
   return (
     <div className="flex flex-col justify-center items-center py-20">
       <div className="border-4 border-transparent hover:border-indigo-900 rounded-full">
@@ -21,8 +30,15 @@ const Hero = () => {
           </h1>
 
           <div className="space-x-4">
-            <Button>Get In Touch</Button>
-            <Button variant="outline">Download CV</Button>
+            <Button onClick={() => toScroll("contact")}>
+              Entre em contato
+            </Button>
+            <Button
+              variant="outline"
+              onClick={() => window.open(`${curriculo}`)}
+            >
+              Download CV
+            </Button>
           </div>
         </div>
       </div>
